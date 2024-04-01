@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://source.unsplash.com/random/?person,portrait" alt="Person Image" class="person-image">
+        </div>
+        <div class="form-container">
+            <div class="form-descript">
+            <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</b></p>
+            </div>
+            <br>
+            <h2><i> You know you want to.</i></h2>
+            <br>
+            <br>
+            
+            <div class="box">
+            <form class="signup-form">
+                <h2>Let's do this!</h2>
+                <div class="container">
+                  <div class="left-column">
+                    <div class="input-container">
+                      <label for="first-name">First Name</label>
+                      <input type="text" id="first-name" required>
+                    </div>
+                    <div class="input-container">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
+                      </div>
+                  </div>
+                  <div class="right-column">
+                    <div class="input-container">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" required>
+                      </div>
+                    <div class="input-container">
+                      <label for="phone">Phone Number</label>
+                      <input type="tel" id="phone" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="input-container">
+                      <label for="confirm-password">Confirm Password</label>
+                      <input type="password" id="confirm-password" required>
+                      <p class="error-message">Passwords do not match</p>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="create-btn">
+                <button class="create-account-btn">Create Account</button>
+                            <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+        </div>
+       
+    </div> 
+</body>
+</html>

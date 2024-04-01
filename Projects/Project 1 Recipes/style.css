@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.recipe-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.top-row {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Highlighting the Top 3 Recipe Cards */
+.top-row .card {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 2px solid #ffcc00; /* Yellow border */
+}
+
+.top-row .card:hover {
+    transform: scale(1.05); /* Hover effect for scaling */
+}
